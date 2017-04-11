@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_nextLine">This is my Basic IT Knowledge Quiz App!</string>
+    <string name="welcome_name">Put your name here: </string>
+    <string name="welcome_instruction">and try to answer on below questions and click ""Check"" button to see your quiz result!</string>
+    <string name="alertDialogButton">Return</string>
+
+    <string name="question_1_header">Question 1</string>
+    <string name="question_1_text">What is the speed of 3,5 inch computer disk?</string>
+    <string name="radio_button_1">7200 rpm</string>
+    <string name="radio_button_2">5200 rpm</string>
+    <string name="radio_button_3">4800 rpm</string>
+    <string name="radio_button_4">6400 rpm</string>
+
+    <string name="question_2_header">Question 2</string>
+    <string name="question_2_text">Choose input devices</string>
+    <string name="check_box_1">keyboard</string>
+    <string name="check_box_2">mouse</string>
+    <string name="check_box_3">monitor</string>
+    <string name="check_box_4">microphone</string>
+
+    <string name="question_3_header">Question 3</string>
+    <string name="question_3_text">1 Gigabyte equals to:</string>
+    <string name="question_3_editText">Put your answer here</string>
+    <string name="question_3_textView">Megabytes</string>\
+    <string name="question_3_answer">1024</string>
+
+    <string name="question_4_header">Question 4</string>
+    <string name="question_4_text">What does HTTP stands for?</string>
+    <string name="radio_button_5">Hypertext Transfer Plot</string>
+    <string name="radio_button_6">Hypertext Transfer Protocol</string>
+    <string name="radio_button_7">Hypertext Transfer Plotter</string>
+    <string name="radio_button_8">Head Tail Transfer Protocol</string>
+
+    <string name="question_5_header">Question 5</string>
+    <string name="question_5_text">Select the smallest memory size:</string>
+    <string name="radio_button_9">Gigabyte</string>
+    <string name="radio_button_10">Megabyte</string>
+    <string name="radio_button_11">Terabyte</string>
+    <string name="radio_button_12">Kilobyte</string>
+
+    <string name="question_6_header">Question 6</string>
+    <string name="question_6_text">Which of presented below is/are programming language?</string>
+    <string name="question_6_check_box_1">C#</string>
+    <string name="question_6_check_box_2">JAVA</string>
+    <string name="question_6_check_box_3">Python</string>
+    <string name="question_6_check_box_4">Go</string>
+
+
+    <string name="result_button">Check!</string>
+
+</resources>
