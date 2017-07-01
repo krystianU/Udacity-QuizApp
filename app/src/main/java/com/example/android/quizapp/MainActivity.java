@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,22 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String createResultMessage(int result, String name) {
         String resultMessage;
-        String header = "Dear " + name + ", your score is: " + result + " out of 6";
-        String rightAnswers = "Below you can find right answer on every question:";
-        String question1Answer = "Question 1: 7200 rpm";
-        String question2Answer = "Question 2: keyboard, mouse, microphone";
-        String question3Answer = "Question 3: 1024";
-        String question4Answer = "Question 4: Hypertext Transfer Protocol";
-        String question5Answer = "Question 5: Kilobyte";
-        String question6Answer = "Question 6: C#, JAVA, Python, Go";
-        resultMessage = header + "\n"+ "\n"
-                + rightAnswers + "\n"+ "\n"
-                + question1Answer + "\n"
-                + question2Answer + "\n"
-                + question3Answer + "\n"
-                + question4Answer + "\n"
-                + question5Answer + "\n"
-                + question6Answer;
+        resultMessage = "Dear " + name + ", your score is: " + result + " out of 6";
         return resultMessage;
     }
 
@@ -100,22 +86,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void showResult(String resultMessage){
-        new AlertDialog.Builder(this)
-                .setTitle("Your score")
-                .setMessage(resultMessage)
-                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        return;
-                    }
-                })
-                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                       return;
-                    }
-                })
-                .setIcon(android.R.drawable.ic_dialog_alert)
-                .show();
-    }
+        Toast.makeText(MainActivity.this, resultMessage, Toast.LENGTH_LONG).show();
+       }
+
 }
 
 
